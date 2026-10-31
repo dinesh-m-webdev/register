@@ -18,8 +18,8 @@
  }
  
  .App{
-  width: 70vh;
-  height: 70vh;
+  width: 470px;
+  height: 450px;
   display: flex;
   flex-direction: column; 
   
@@ -53,10 +53,9 @@
 }
 .title img {
    
-  width: 50px;
+  width: 90px;
   height: 50px;
-
-    filter:
+  filter:
         drop-shadow(0 0 50px #a855f7)
         drop-shadow(0 0 150px #9333ea)
         drop-shadow(0 0 250px #6366f1);
@@ -65,7 +64,7 @@
 .title h1 {
   font-size: 24px;
   color: white;
-  margin-left: 15px;
+  margin-right: 20px;
   margin-top: 10px;
   
 }
@@ -89,29 +88,57 @@
 
 }
 .input-field input{
-  margin-top: 20px;
+color: white;
+  margin-top: 7px;
+  height:30px;
+  border-radius: 7px;
+  border:2px solid #a371d4 ;
+  filter: blur();
+
+  padding-left: 5px;
+  background-color: transparent;
+  
+
 }
+.input-field input:hover{
+box-shadow:0 0 20px #a855f7;
+border: 2px solid #c084fc ;
+
+margin-top: 7px;
+  
+}
+.input-field input::placeholder{
+  color: white;
+}
+ 
 .check-box{
 display: flex;
+margin-left: 4px;
 
-
+}
+.check-box input{
+  box-shadow: none;
+  height: 30px;
 }
 .check-box p{
   font-size: medium;
-  margin-top: 17px;
+  margin-top: 13px;
+  
   margin-left: 5px;
   color: aliceblue;
 }
 .check-box p a{
   text-decoration: none;
+  color: #e698f9 ;
 }
 .reg-btn{
   color: white;
   margin-top: 5px;
+  align-self: center;
   background: linear-gradient(#a855f7,#9333ea,#6366f1);
    border: hidden;
-  height: 25px;
-  width: 335px;
+  height: 35px;
+  width: 420px;
   border-radius: 5px;
 }
 .reg-btn:hover{
@@ -125,11 +152,18 @@ display: flex;
   
 
 }
+.return-login{
+  margin-left: 5px;
+  margin-top: 7px;
+}
 .return-login p {
   font-size: small;
-  color: antiquewhite;
+  color: white;
 }
 .return-login p a{
+  color:#e698f9 ;
+  font-size:15px;
+  margin-left:5px ; 
   text-decoration: none;
 }
 
